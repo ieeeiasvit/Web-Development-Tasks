@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+
+    <!-- CSS linked -->
+    <link rel="stylesheet" href="task1.css">
+
+    <!-- ---  JQuery CDN   --- -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+    <!-- CDN for Box icon -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!--importing font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=BIZ+UDPMincho&family=Beau+Rivage&family=Old+Standard+TT&family=Rubik:wght@300;400;500;600;700;800;900&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ------Header------- -->
+    <header>
+        <a href="#" class="logo">IEEE-<span>IAS</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#tt">Time Table</a>
+            </li>
+            <li>
+                <a href="#trailer">Trailer</a>
+            </li>
+            <li>
+                <a href="#loction">Location</a>
+            </li>
+            <li>
+                <a href="#contact">Contact Me</a>
+            </li>
+        </ul>
+    </header>
+
+
+    <!-- Myinfo Home tab -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h5>Hello,I am</h5>
+            <h1>Abhishek Raj</h1>
+            <h6>I Am Passionate <span>Developer.</span></h6>
+            <p>I study in VIT,Vellore and pursuing Information Technology in B.Tech Programme.I am interested in web development and i'm in IEEE-IAS.</p>
+            <a href="https://github.com/avisekraj?tab=repositories" class="btn">My Projects</a>
+        </div>
+        <div class="home-img"><img src="mypic.png" alt="Loading....."></div>
+    </section>
+
+    <!-- ----  Time Table of VIT  ----- -->
+    <section class="tt" id="tt">
+        <div class="tables">
+            <table>
+                <tr>
+                    <td rowspan="2">THEORY</td>
+                    <td>Start</td>
+                    <td>08:00</td>
+                    <td>09:00</td>
+                    <td>10:00</td>
+                    <td>11:00</td>
+                    <td>12:00</td>
+                    <td>Lunch</td>
+                    <td>14:00</td>
+                    <td>15:00</td>
+                    <td>16:00</td>
+                    <td>17:00</td>
+
+                </tr>
+                <tr>
+                    <td>End</td>
+                    <td>08:50</td>
+                    <td>09:50</td>
+                    <td>10:50</td>
+                    <td>11:50</td>
+                    <td>12:50</td>
+                    <td>Lunch</td>
+                    <td>14:50</td>
+                    <td>15:50</td>
+                    <td>16:50</td>
+                    <td>17:50</td>
+
+                </tr>
+                <tr>
+                    <td rowspan="2">LAB</td>
+                    <td>Start</td>
+                    <td>08:00</td>
+                    <td>08:51</td>
+                    <td>09:51</td>
+                    <td>10:41</td>
+                    <td>11:40</td>
+                    <td>Lunch</td>
+                    <td>14:00</td>
+                    <td>14:51</td>
+                    <td>15:51</td>
+                    <td>16:41</td>
+
+                </tr>
+                <tr>
+                    <td>End</td>
+                    <td>08:50</td>
+                    <td>09:40</td>
+                    <td>10:40</td>
+                    <td>11:30</td>
+                    <td>12:30</td>
+                    <td>Lunch</td>
+                    <td>14:50</td>
+                    <td>15:40</td>
+                    <td>16:40</td>
+                    <td>17:30</td>
+
+                </tr>
+                <tr>
+                    <td rowspan="2" class="day">MON</td>
+                    <td>THEORY</td>
+                    <td class="class">ALA</td>
+                    <td>F1</td>
+                    <td>D1</td>
+                    <td class="class">OSP</td>
+                    <td class="class">Soft Computing</td>
+                    <td>Lunch</td>
+                    <td>A2</td>
+                    <td>F2</td>
+                    <td>D2</td>
+                    <td>TB2</td>
+                </tr>
+                <tr>
+                    <td>LAB</td>
+                    <td>L1</td>
+                    <td>L2</td>
+                    <td>L3</td>
+                    <td>L4</td>
+                    <td>L5</td>
+                    <td>Lunch</td>
+                    <td>L31</td>
+                    <td>L32</td>
+                    <td>L33</td>
+                    <td>L34</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="day">TUE</td>
+                    <td>THEORY</td>
+                    <td class="class">OSP</td>
+                    <td class="class">Soft Computing</td>
+                    <td class="class">OS</td>
+                    <td class="class">DCCN</td>
+                    <td class="class">ALA</td>
+                    <td>Lunch</td>
+                    <td>B2</td>
+                    <td class="class">SPM</td>
+                    <td class="class">STS</td>
+                    <td>TC2</td>
+                </tr>
+                <tr>
+                    <td>LAB</td>
+                    <td>L7</td>
+                    <td>L8</td>
+                    <td>L9</td>
+                    <td>L10</td>
+                    <td>L11</td>
+                    <td>Lunch</td>
+                    <td>L37</td>
+                    <td>L38</td>
+                    <td>L39</td>
+                    <td>L40</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="day">WED</td>
+                    <td>THEORY</td>
+                    <td class="class">DCCN</td>
+                    <td class="class">ALA</td>
+                    <td>F1</td>
+                    <td class="class">ALA (VS)</td>
+                    <td>V2</td>
+                    <td>Lunch</td>
+                    <td>C2</td>
+                    <td>A2</td>
+                    <td>F2</td>
+                    <td>TD2</td>
+                </tr>
+                <tr>
+                    <td>LAB</td>
+                    <td>L13</td>
+                    <td>L14</td>
+                    <td>L15</td>
+                    <td>L16</td>
+                    <td>L17</td>
+                    <td>Lunch</td>
+                    <td>L43</td>
+                    <td>L44</td>
+                    <td class="class">DCCN LAB</td>
+                    <td class="class">DCCN LAB</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="day">THU</td>
+                    <td>THEORY</td>
+                    <td>D1</td>
+                    <td class="class">OSP</td>
+                    <td class="class">Soft Computing</td>
+                    <td class="class">OS</td>
+                    <td>TCC1</td>
+                    <td>Lunch</td>
+                    <td>D2</td>
+                    <td>B2</td>
+                    <td class="class">SPM</td>
+                    <td class="class">STS</td>
+                </tr>
+                <tr>
+                    <td>LAB</td>
+                    <td>L19</td>
+                    <td>L20</td>
+                    <td>L21</td>
+                    <td>L22</td>
+                    <td>L23</td>
+                    <td class="class">Lunch</td>
+                    <td class="class">OS LAB</td>
+                    <td class="class">OS LAB</td>
+                    <td>L51</td>
+                    <td>L52</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="day">FRI</td>
+                    <td>THEORY</td>
+                    <td class="class">OS</td>
+                    <td class="class">DCCN</td>
+                    <td class="class">ALA</td>
+                    <td>TF1</td>
+                    <td>TD1</td>
+                    <td>Lunch</td>
+                    <td class="class">STS</td>
+                    <td>C2</td>
+                    <td>TA2</td>
+                    <td>TF2</td>
+                </tr>
+                <tr>
+                    <td>LAB</td>
+                    <td>L25</td>
+                    <td>L26</td>
+                    <td>L27</td>
+                    <td>L28</td>
+                    <td>L29</td>
+                    <td>Lunch</td>
+                    <td>L55</td>
+                    <td>L56</td>
+                    <td>L57</td>
+                    <td>L58</td>
+                </tr>
+
+            </table>
+        </div>
+    </section>
+
+    <!-- ---  Trailer of Recent watched Movie  --- -->
+    <section class="trailer" id="trailer">
+        <div class="div">
+            <iframe width="450" height="315" src="https://www.youtube.com/embed/JKa05nyUmuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="review">
+            <h3>Review</h3>
+            <p>KGF:Chapter 1' set the tone for a slick gangster franchise-high on style and details. The first part was all about establishing the intentions and power of Raja Krishnappa Bairya aka Rocky Bhai. The second part has managed to create hype with
+                its promotional content that gives a peek into the film. Does the film manage to match the build-up? It does and provides a better sequel and also has a big surprise for fans in the end, too. You should watch it.</p>
+        </div>
+    </section>
+
+    <!-- ---   My Home Address on Map   --- -->
+
+
+    <section class="address" id="location">
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.363300063134!2d84.7467404!3d25.791585899999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992baee0d4e2359%3A0x48a849b71c15d904!2sPrabhunath%20Nagar%2C%20Chapra%2C%20Bihar%20841301!5e0!3m2!1sen!2sin!4v1652957020902!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+    <!-- ---  Contact me   --- -->
+    <div class="contact" id="contact">
+        <a href="https://www.instagram.com/devil_.001_/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-solid fa-phone"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100060103760772"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/abhishek-raj-3a548a227/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+    <!-- Scroll reveal CDN -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- Link JS File -->
+    <script src="task1.js"></script>
+
+
+</body>
+
+</html>
