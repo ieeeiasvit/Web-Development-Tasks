@@ -1,0 +1,75 @@
+html {
+    font-size: 22px;
+    font-family:'Raleway', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+body {
+    background-color: rgba(27,32,31,1);
+    color: rgba(255,255,255,1);
+}
+
+table, tr, th, td, caption {
+    border: 1px solid rgba(238,238,238,0.2);
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    border-collapse: collapse;
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    text-align: center;
+}
+
+table{
+    margin-left: 1%;
+}
+
+#Trailer iframe{
+    border: 1px;
+    margin: 0% 3% 3%;
+    float: left;
+}
+
+#Address iframe{
+    border: 1px;
+    margin: 3%;
+}
+
+img{
+    margin: 3%;
+}
+
+th{
+    background-color: rgba(61, 71, 68, 0.3);
+    font-size: 15px;
+}
+
+.classtime{
+    background: rgba(0, 183, 70,0.7);
+}
+
+nav{
+    background-color: rgb(37, 43, 42);
+    text-align: left;
+}
+
+nav a{
+    color: white;
+    display: inline-block;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding : 10px;
+    transition: background 200ms ease;
+}
+
+nav a:hover{
+    background-color: rgb(65, 78, 76);
+}
+
+#Contacts a{
+    color: white;
+    font-size: 22px;
+    transition: font-size 200ms linear;
+}
+
+#Contacts a:hover{
+    font-size: 26px;
+}
