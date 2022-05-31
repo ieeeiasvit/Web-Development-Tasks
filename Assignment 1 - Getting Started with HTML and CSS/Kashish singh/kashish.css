@@ -1,0 +1,216 @@
+header{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: larger;
+    background-color: #d9dbf1;
+    border-radius: 15px;
+    
+    
+    
+    
+    
+}
+
+.menubar li{
+list-style: none;
+display:inline-block;
+}
+
+.main{
+    padding-right: 200px;
+    text-decoration: none;
+    color:#564787;
+    
+}
+.main:hover{
+    font-size:larger ;
+    color:#9b6a6c
+}
+
+
+.tt{
+    padding-right:200px;
+    text-decoration: none;
+}
+
+
+
+.tt:hover{
+    font-size: larger;
+    color:#9b6a6c;
+}
+
+.contact{
+text-decoration: none;
+    padding-right: 200px;
+}
+
+.contact:hover{
+    font-size: larger;
+    color:#9b6a6c
+}
+
+.ad{
+    padding-right:20px;
+text-decoration: none;
+color:#564787
+    }
+
+.ad:hover{
+
+    font-size: larger;
+    color:#9b6a6c;
+}
+
+
+.logo{
+    cursor: pointer;
+    height: 75px;px;
+    align-items: center;
+    width:75px;
+    border:none;
+    border-radius:15px;padding-left: 10px;
+   
+    
+}
+
+.logo:hover{
+    width:100px;
+    height:100px;
+    border-radius:15px;
+}
+
+ 
+
+.img img{
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    padding-left: 50px;
+    border-radius: 15px;
+    padding-top: 75px;
+    
+    
+
+}
+
+
+
+.Schedule{
+    padding-top:50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.body{
+    background-color: #4a4e69;
+}
+
+.about-me{
+    color: #f2e9e4;
+    display:flex;
+}
+
+.text{
+    padding-top: 150px;
+  
+  padding-left: 150px;
+}
+
+table tr td {
+    padding-left: 100px;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    background: #e3d0d8;
+    filter:brightness(70%);
+    padding: 3px 10px;
+    text-align: center;
+
+}
+
+.movie-trailer{
+    padding-top:200px;
+    text-align: center;
+    padding-bottom:100px;
+        display: inline;
+        
+}
+.description{
+    float:right;
+    padding-top: 80px;
+    font-size: 20px;
+    padding-right: 10px;
+    color:#f2e9e4;
+    
+}
+.address{
+    text-align: center;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.h1{padding-top:50px}
+
+.video{
+    padding-left:90px;
+    padding-top:75px;
+    border-radius: 20px;
+     }
+
+.contact{
+    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+ .linkedin{
+    
+    color:#f2e9e4;
+   
+    font-size:20px;
+    padding-right: 20px;
+    padding-left: 280px;
+   
+}
+
+.linkedin:hover{
+    font-size: 30px;
+    background-color: transparent;
+    color:#c9ada7;
+}
+
+.tel{
+    font-size: 20px;
+    padding-right:20px;
+    color:#f2e9e4;
+}
+
+ .tel:hover{
+     font-size: 30px;
+     background-color:transparent;
+     color:#c9ada7;
+     
+     
+ }
+
+  .mail{
+
+   color:#f2e9e4;
+   font-size: 20px;
+   
+
+  }
+
+  .mail:hover{
+  font-size: 30px;
+  background-color: transparent;
+  color:#c9ada7;
+
+  }
