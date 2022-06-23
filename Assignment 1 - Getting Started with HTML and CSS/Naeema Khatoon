@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a simple website">
+        <meta name="author" content="Naeema">
+        <meta name="keyword" content="HTML assignment">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Naeema's Website</title>
+        <link rel="icon" href="cse.jpg" type="image/x.icon">
+    </head>
+    <body>
+        <style>
+            h2 {color: red;}
+        </style>
+        
+        <h1 style="color: green">About Me</h1>
+        <hr/><hr/>
+        <p>Hi! I'm Naeema Khatoon and I'm currently pursuing B.Tech in Computer Science Engineering with specialization in Information Security.</p>
+        <p>I've always had an affinity for computers. The reason I chose computer science is because computers are shaping the direction our world takes and I want to play a part in that. The idea of writing a program that helps a physicist decode the secrets of the universe or a doctor discover a cure for a serious disease holds great appeal for me. Computer science is a continually growing field and with computers becoming involved in almost every aspect of our lives, it should remain so for the forseeable future.</p>
+        <p>Apart from computers and coding, I like reading, travelling, cooking.</p>
+        
+                <img align="left" width="300" height="550" src="reading.jpg" alt="Reading"/>
+            
+                <img align="right" width="300" height="700" src="cook.jpg" alt="Cooking"/>
+            
+                <img align="bottom" width="300" height="550" src="travelling.jpg" alt="Cute Cat"/>
+            
+        <table>
+            
+            <thead>
+                <caption><h2>My Timetable:</h2></caption>
+                <tr>
+                    <th>Time & Day</th>
+                    <th>8:00-8:50</th>
+                    <th>9:00-9:50</th>
+                    <th>10:00-10:50</th>
+                    <th>11:00-11:50</th>
+                    <th>12:00-12:50</th>
+                    <th>1:00-2:00</th>
+                    <th>2:00-3:40</th>
+                    <th>3:50-5:30</th>
+                    <th>5:40-7:20</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Monday</th>
+                    <td>A1-BPHY101L-TH-PRP127-ALL03</td>
+                    <td>F1-BSTS102P-SS-SMV104-ALL03</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Lunch</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <td>B1-BCSE102L-TH-SJT412-ALL03</td>
+                    <td>G1-BENG101L-TH-PRP323-ALL03</td>
+                    <td>E1-BECE101L-TH-PRP112-ALL03</td>
+                    <td>TC1-BMAT102L-TH-TT414-ALL03</td>
+                    <td> </td>
+                    <td>Lunch</td>
+                    <td> </td>
+                    <td>L39,L40-BPHY101P-LO-PRPG17-ALL03</td>
+                    <td>L41,L42-BENG101P-LO-TT432-ALL03</td>
+                </tr>
+                <tr>
+                    <th>Wednesday</th>
+                    <td>C1-BMAT102L-TH-TT414-ALL03</td>
+                    <td>A1-BPHY101L-TH-PRP127-ALL03</td>
+                    <td>F1-BSTS102P-SS-SMV104-ALL03</td>
+                    <td> </td>
+                    <td> </td>
+                    <td>Lunch</td>
+                    <td> </td>
+                    <td> </td>
+                    <td>L47,L48-BECE101P-LO-TT501-ALL03</td>
+                </tr>
+                <tr>
+                    <th>Thursday</th>
+                    <td></td>
+                    <td>B1-BCSE102L-TH-SJT412-ALL03</td>
+                    <td>G1-BENG101L-TH-PRP323-ALL03</td>
+                    <td></td>
+                    <td>TCC1-BMAT102L-TH-TT414-ALL03</td>
+                    <td>Lunch</td>
+                    <td> </td>
+                    <td> </td>
+                    <td>L51,L52-BCSE102P-LO-SJT419-ALL03</td>
+                </tr>
+                <tr>
+                    <th>Friday</th>
+                    <td>E1-BECE101L-TH-PRP112-ALL03</td>
+                    <td>C1-BMAT102L-TH-TT414-ALL03</td>
+                    <td>TA1-BPHY101L-TH-PRP127-ALL03</td>
+                    <td>TF1-BSTS102P-SS-SMV104-ALL03</td>
+                    <td></td>
+                    <td>Lunch</td>
+                    <td>L55-BCSE102P-LO-SJT419-ALL03</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>Trailor of my favourite movie</h2>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lzr2PJXeHww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h2>Address</h2>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0409982303077!2d79.15373954960052!3d12.969228418396494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad479f0ccbe067%3A0xfef222e5f36ecdeb!2sVellore%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1655976420302!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!--footer start-->
+        <article id="contact">
+            <footer>
+                <h2>Connect with me on:</h2>
+                <div class="social">
+                    
+                    <a href="https://www.instagram.com/knaeema18/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Naeema7Khatoon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/naeema-khatoon-273397227/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <p class="end"><i class="fa-solid fa-copyright"></i>CopyRight by Naeema Khatoon</p>
+            </footer>
+        </article>
+
+    </body>
+</html>
