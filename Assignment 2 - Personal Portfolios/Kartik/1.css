@@ -1,0 +1,32 @@
+html {
+    min-height: 100%;
+    background-image: url(geo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h6 {
+
+    text-align: bottom;
+
+}
+
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+
+    color: rgb(12, 239, 88);
+}
+
+.something {
+    text-align: center;
+
+    color: rgba(12, 247, 231, 0.875);
+}
