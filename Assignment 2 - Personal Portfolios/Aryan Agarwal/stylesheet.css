@@ -1,0 +1,190 @@
+body {
+	background-color: #eeeeee;
+	margin: 0%;
+	font-family: "Comfortaa", cursive;
+}
+
+/* Section - 1 */
+
+.first {
+	background-image: url(Images/dark-spaceandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-r4mzs-1920x1080.jpg);
+}
+
+.mname {
+	color: white;
+	font-size: 8rem;
+	font-family: "Water Brush";
+	display: inline-block;
+	transition: transform 0.8s;
+}
+
+.intro {
+	padding: 16.1rem 0;
+	text-align: center;
+}
+
+.quote {
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: "Ubuntu", sans-serif;
+	margin-top: 2rem;
+}
+
+.mname:hover {
+	transform: scale(1.2);
+}
+
+/* Section - 2 */
+
+.second {
+	padding: 8rem 25rem 10rem;
+	align-items: center;
+	text-align: center;
+}
+
+.promage {
+	display: block;
+	max-width: 12rem;
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3rem;
+}
+
+.intropt {
+	color: #141e61;
+	font-size: 1.5rem;
+	font-weight: 900;
+}
+
+.introp {
+	color: #141e61;
+	font-size: 1.3rem;
+}
+
+.second-half {
+	padding: 10rem 8rem;
+	background-color: #0f044c;
+}
+
+#edb {
+	color: #eeeeee;
+	font-size: 2rem;
+	font-weight: 900;
+	margin-bottom: 2.5rem;
+}
+
+.school {
+	color: #eeeeee;
+	font-size: 1.5rem;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.schye {
+	color: #eeeeee;
+	font-size: 1.3rem;
+}
+
+ul {
+	font-size: 1.3rem;
+	color: #eeeeee;
+}
+
+/* Section - 3 */
+
+.third {
+	padding: 5rem 8rem;
+}
+
+.thirdh {
+	margin: 0 auto 5rem;
+	color: #141e61;
+	font-size: 2.3rem;
+	font-weight: 700;
+}
+
+.toprow {
+	margin-bottom: 5rem;
+}
+
+.sec3ico {
+	max-height: 8rem;
+	max-width: 8rem;
+}
+
+.icohov {
+	padding: 2rem 4rem;
+	transition: transform 0.6s;
+}
+
+.icohov:hover {
+	transform: scale(1.5);
+}
+
+/* Section - 4 */
+
+.fourth {
+	padding: 8rem 8rem;
+	background-color: #0f044c;
+}
+
+.fourthh {
+	margin: 0 auto 5rem;
+	color: #eeeeee;
+	font-size: 2.3rem;
+	font-weight: 700;
+}
+
+.heximg {
+	max-width: 100%;
+	/* height: 18em; */
+	border-radius: 2%;
+	margin-bottom: 2rem;
+}
+
+.hexdiv {
+	padding-bottom: 2rem;
+}
+
+.hexcol {
+	padding: 10%;
+}
+#divider {
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	border-top-style: dotted;
+	border-color: #eeeeee;
+	border-width: 0.4rem;
+	opacity: 1;
+	width: 10%;
+	background-color: inherit;
+	margin-bottom: 10rem;
+	margin-top: 5rem;
+}
+
+.pah {
+	color: #eeeeee;
+	font-size: 1.3rem;
+}
+
+/* Overlay */
+
+/* Footer */
+
+.social-icon {
+	margin: 20px 10px;
+	color: black;
+}
+
+.f {
+	color: #8f8f8f;
+	font-size: 1rem;
+}
+
+.white-section {
+	padding: 5rem;
+	text-align: center;
+}
